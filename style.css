@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  background-color: rgb(6, 6, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.iphone {
+  position: relative;
+  width: 300px;
+  height: 650px;
+  background-color: white;
+  border-radius: 45px;
+  border: 8px solid rgb(10, 10, 1);
+  box-shadow: 0 0 200px rgb(193, 149, 149);
+  overflow: hidden;
+}
+
+.dynamic-island {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 96px;
+  height: 24px;
+  background-color: black;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  opacity: 100%;
+}
+.img{
+overflow: hidden;
+margin: 0;
+height: 44px;
+}
+.home-bar {
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 5px;
+  background-color: black;
+  border-radius: 3px;
+  opacity: 100%;
+}
+.volume-buttons {
+  position: absolute;
+  left: -8px;
+  top: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.display {
+  color: black;
+  text-align: right;
+  font-size: 55px;
+  padding: 20px 10px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.lightGrey {
+  background-color: lightgrey;
+  color: black;
+}
+
+.darkGrey {
+  background-color: darkgray;
+}
+
+.orange {
+  background-color: orange;
+}
+.btn {
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 68px);
+  gap: 5px;
+  justify-content: center;
+}
+.calculator {
+  background-color: white;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
